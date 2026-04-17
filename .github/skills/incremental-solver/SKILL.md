@@ -43,7 +43,12 @@ Use this skill when a task should be solved one PBI at a time in small, safe inc
    - Run tests or other checks after the task is done.
    - If more tasks remain, repeat steps 5–7 until the PBI is finished.
 
-8. **Final review and close out**
+8. **Run TDD and update related files**
+   - Run the test-first cycle for the completed work or the next failing behavior.
+   - Update the related files based on the test results and any new knowledge.
+   - Keep the PBI checklist, notes, and traceability entries in sync with the code changes.
+
+9. **Final review and close out**
    - Review the completed PBI together one last time.
    - Move the PBI file to `pbi/done/` when all tasks are finished and accepted.
    - Make a closing commit that captures the completed PBI and any final adjustments.
@@ -93,6 +98,7 @@ Use this skill when a task should be solved one PBI at a time in small, safe inc
 - Update the PBI file as new knowledge is discovered.
 - Commit once after planning is ready, then commit after each completed task.
 - After the last task, do a final review together, move the PBI to `done`, and make a closing commit.
+- Run TDD at the end of the task flow and update related files before the final review.
 - Prefer the smallest useful change that moves the work forward.
 - Keep each increment independently understandable.
 - Do not skip verification between major steps.
@@ -106,7 +112,8 @@ Use this skill when a task should be solved one PBI at a time in small, safe inc
 - Present the next small task.
 - Make the change, commit it, and verify it before continuing.
 - When the PBI is complete, perform a final review, move it to `done`, and make the closing commit.
+- After the final task, run TDD, update related files, then do the final review and closeout.
 
 ## Example Usage
 
-- Use this skill to solve a feature request by selecting one PBI, moving it to active, understanding it together, planning the smallest next tasks, creating a planning commit, executing and committing each task one by one, and then doing a final review before moving the PBI to done and making the closing commit.
+- Use this skill to solve a feature request by selecting one PBI, moving it to active, understanding it together, planning the smallest next tasks, creating a planning commit, executing and committing each task one by one, running TDD and updating related files at the end, and then doing a final review before moving the PBI to done and making the closing commit.

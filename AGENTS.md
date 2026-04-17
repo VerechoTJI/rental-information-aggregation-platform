@@ -49,6 +49,7 @@
 - Do not invent new product requirements without checking the SRS first.
 - Update documentation when public behavior, APIs, or deployment steps change.
 - Prefer existing workspace conventions over introducing new frameworks or folder structures.
+- Follow the incremental workflow in `.github/skills/incremental-solver/SKILL.md`: work on one PBI at a time, move it to `pbi/active/`, review it together, update the PBI with new knowledge, plan small tasks, commit after each completed task, run TDD at the end, then do a final review and move it to `pbi/done/`.
 - Track each feature as its own PBI file under `pbi/` using names like `p00001_login.md`.
 - Keep pending PBIs at the top level of `pbi/`, move active work to `pbi/active/`, and move finished PBIs to `pbi/done/`.
 - Track subtasks inside the relevant PBI file with a checklist.
