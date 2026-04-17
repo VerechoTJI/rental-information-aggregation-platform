@@ -1,0 +1,9 @@
+[submodule "backend"]
+    path = backend
+    url = https://github.com/VerechoTJI/riap-backend
+    branch = main
+
+[submodule "frontend"]
+    path = frontend
+    url = https://github.com/VerechoTJI/riap-frontend
+    branch = main
