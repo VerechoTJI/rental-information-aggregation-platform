@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# Maven / Java
+/target/
+**/target/
+.mvn/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Node / frontend
+node_modules/
+**/node_modules/
+/frontend/prototype/node_modules/
+/frontend/prototype/dist/
+dist/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs and temp
+logs/
+*.log
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+
+# Ignore build artifacts
+/build/
+
+# Local IDE/runtime files
+*.pid
+*.seed
+
+# Ignore local test databases
+*.sqlite
+*.db
