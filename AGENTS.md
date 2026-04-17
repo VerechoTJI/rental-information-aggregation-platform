@@ -58,20 +58,20 @@
 ## Conventions
 
 - Branch naming
-	- `main`: protected release branch.
-	- `feature/<ticket-id>-short-desc`: new features.
-	- `fix/<ticket-id>-short-desc`: bug fixes.
-	- `hotfix/<short-desc>`: urgent fixes to `main`.
+  - `main`: protected release branch.
+  - `feature/<ticket-id>-short-desc`: new features.
+  - `fix/<ticket-id>-short-desc`: bug fixes.
+  - `hotfix/<short-desc>`: urgent fixes to `main`.
 
 - Commit messages (Conventional Commits)
-	- Use Conventional Commits. Examples:
-		- `feat: add new search endpoint`
-		- `fix: correct null pointer in listing parser`
-		- `docs: update API section in README`
+  - Use Conventional Commits. Examples:
+    - `feat: add new search endpoint`
+    - `fix: correct null pointer in listing parser`
+    - `docs: update API section in README`
 
 - Submodules
-	- Clone with `--recurse-submodules` or run `git submodule update --init --recursive` after clone.
-	- When changing a submodule's files: cd into the submodule, commit and push there, then update the super-repo's submodule pointer and commit in the super-repo.
+  - Clone with `--recurse-submodules` or run `git submodule update --init --recursive` after clone.
+  - When changing a submodule's files: cd into the submodule, commit and push there, then update the super-repo's submodule pointer and commit in the super-repo.
 
 ## Build & Test
 
