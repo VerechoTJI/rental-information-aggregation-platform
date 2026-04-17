@@ -18,6 +18,11 @@ Use this folder to track work one feature at a time.
 - Move the file to `pbi/done/` when work finishes.
 - Any PBI not in `active` or `done` is considered pending.
 
+### Acceptance Criteria
+
+- Each PBI must include an `Acceptance Criteria` section with measurable, testable items that define when the PBI is complete.
+- Acceptance Criteria should be verifiable via unit/integration tests, manual checks, or CI validation as appropriate.
+
 ## Naming
 
 - Use filenames like `p00001_login.md` with a five-digit numeric prefix and a concise lowercase name.

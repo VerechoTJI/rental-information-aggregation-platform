@@ -35,6 +35,7 @@ Use this skill to create or update product backlog items (PBIs) for the RIAP wor
 - `Goal`: describe the feature outcome in one short paragraph.
 - `Subtasks`: track implementation work with a checklist.
 - `Notes`: capture constraints, dependencies, or traceability reminders.
+- `Acceptance Criteria`: list clear, testable criteria that define when the PBI is done.
 
 ## Writing Rules
 
@@ -64,6 +65,11 @@ Describe the feature briefly.
 ## Notes
 
 - Any constraints or traceability reminders.
+
+## Acceptance Criteria
+
+- **AC-01:** The feature builds and unit tests pass.
+- **AC-02:** Registration accepts valid input and rejects invalid input with HTTP 400.
 ```
 
 ## Output Expectation
