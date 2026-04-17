@@ -22,6 +22,7 @@ Use this skill when a task should be solved one PBI at a time in small, safe inc
 2. **Review it together**
    - Read the PBI and the relevant requirements.
    - Update the PBI with any new knowledge, clarification, or scope change.
+   - Define Acceptance Criteria: write measurable, testable acceptance criteria for the PBI and add them to the PBI file.
 
 3. **Break it into tasks**
    - Split the feature into the smallest useful steps.
@@ -42,6 +43,7 @@ Use this skill when a task should be solved one PBI at a time in small, safe inc
 7. **Verify and continue**
    - Run tests or other checks after the task is done.
    - If more tasks remain, repeat steps 5–7 until the PBI is finished.
+   - Verify Acceptance Criteria: confirm the PBI's acceptance criteria are satisfied before moving to final review.
 
 8. **Run TDD and update related files**
    - Run the test-first cycle for the completed work or the next failing behavior.
