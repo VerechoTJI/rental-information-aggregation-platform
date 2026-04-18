@@ -50,19 +50,15 @@ Rapidly deliver a minimal, hackable frontend prototype that demonstrates user fl
 
 - [x] Create PBI and mark as `Active` (this file)
 - [x] Capture user-visible requirements (added `User-visible Requirements` section)
-- [ ] Frontend prototype: scaffold `Vite + Vue` app under `frontend/prototype/`
-- [ ] Frontend pages/components: create login, listings, listing detail, messages, landlord dashboard, and admin review screens
-- [ ] Frontend fixtures: add JSON fixtures under `frontend/prototype/public/fixtures/` for users, listings, and messages
-- [ ] Frontend interactions: add client-side Vue state/routing to simulate login, search/filters, pagination, and messaging (in-memory)
-- [ ] Frontend README: add `frontend/prototype/README.md` with instructions to run `npm install`, `npm run dev`, and `npm run build`
-- [ ] Document technical debt and create follow-up PBIs for backend persistence, migrations, REST API, and observability
+- [x] Frontend prototype: scaffold `Vite + Vue` app under `frontend/prototype/`
+- [x] Frontend pages/components: create login, listings, listing detail, messages, landlord dashboard, and admin review screens
+- [x] Frontend fixtures: add JSON fixtures under `frontend/prototype/public/fixtures/` for users, listings, and messages
+- [x] Frontend interactions: add client-side Vue state/routing to simulate login, search/filters, pagination, and messaging (in-memory)
+- [x] Frontend README: add `frontend/prototype/README.md` with instructions to run `npm install`, `npm run dev`, and `npm run build`
 - [ ] Demo & feedback capture
-
 - [ ] Frontend: landlord UI pages (`frontend/prototype/src/views/LandlordDashboard.vue`, `frontend/prototype/src/views/LandlordEditListing.vue`) to manage own listings (client-side)
-- [ ] Frontend: admin UI pages (`frontend/prototype/src/views/AdminReview.vue`) to review `pending` listings and publish/return with reason
-- [ ] Frontend fixtures: include `pending` listings and a small admin user in `frontend/prototype/public/fixtures/` to exercise review flows
 
-Progress summary: 0/8 frontend tasks completed. Current focus: scaffold `frontend/prototype/` and add fixtures so stakeholders can preview UI quickly.
+Progress summary: 9/12 frontend tasks completed. Current focus: document technical debt, implement `LandlordEditListing.vue`, and capture demo feedback.
 
 Notes: This PBI is intentionally frontend-only for fast stakeholder feedback; backend persistence work will be tracked in follow-up PBIs.
 
